@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        .formdesign{
+            width: 350px;
+            height: 240px;
+            margin-top: 80px;
+            margin-left: 80px;
+            border-style: none;
+            border-width: 5px;
+            background-color: rgb(19, 231, 19);
+            padding-left: 50px;
+            padding-right: 20px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(20, 88, 184);">
+    <form class="formdesign">
+        <div>
+            <label style="margin-right:34px ;" for ="name">name</label>
+            <input type="text" name="name" id="name" placeholder="user" maxlength="25" required>
+        </div>
+        <div>
+            <label style="margin-right:33px ;" for="email">email</label>
+            <input name="email" type="email" id="email" required value="test@example.com" autofocus>
+        </div>
+       <div>
+        <label style="margin-right:8px ;" for="password">password</label>
+        <input type="password" name=""password id="password" minlength="6" required>
+       </div>
+       <div>
+        <label style="margin-right:41px ;" for="text">note</label>
+        <input type="text" name="text" id="text" placeholder="note" >
+       </div>
+       <div>
+        <label style="margin-right:1px ;" for="date">Event date</label>
+        <input type="date" name="date" id="date" required>
+       </div>
+       <div>
+        Gender
+        <label for="ticket" style="margin-left:20px ;">1 ticket</label>
+        <input type="radio" name="ticket" id="1ticket" value="1ticket" required>
+        <label for="2ticket">2ticket</label>
+        <input type="radio" name="ticket" id="2ticket" value="2ticket" checked>
+        <label for="3ticket">3ticket</label>
+        <input type="radio" name="ticket" id="3ticket" value="3ticket">
+        
+
+        </div>
+        <label>eyecolor</label>
+        <select>
+            <option name="red" value="student">student</option>
+            <option name="blue" value="employee">employee</option>
+            <option name="dark" value="freelancer" selected>freelancer</option>
+        </select>
+        
+
+         
+       <div>
+       <label for="onlinepayement">online payement</label>
+       <input type="checkbox" id="onlinepayement" >
+       </div>
+     
+       
+       
+        
+        <button type="submit">submit</button>
+
+    </form>
+    
+</body>
+</html>
