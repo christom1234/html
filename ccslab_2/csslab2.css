@@ -1,0 +1,22 @@
+a:link{
+    text-decoration: none;
+    color: #38488f;
+}
+
+.box{
+    border-style: none;
+    border-radius: 4px;
+    background-color: white;
+    padding: 2.2em;
+    
+    font-family: sans-serif;
+    box-shadow: 2px 2px 3px 3px rgb(247, 244, 244);
+   
+    width: 600px;
+    
+    
+    margin: auto;
+    margin-top: 90px;
+    
+    
+}
