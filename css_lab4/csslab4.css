@@ -1,0 +1,51 @@
+.h1{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 325px;
+    
+}
+
+.h2{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+}
+.search{
+    position: absolute;
+    right: 70px;
+    top:90px;
+    border-style:solid
+  
+  
+   
+}
+table{
+    width:100%;
+ 
+    border-collapse: collapse;
+    
+}
+
+table,td,th{
+    border:ridge;
+    height: 30px;
+   
+}
+th{
+    text-align: left;
+}
+
+button:{
+ background-color:rgb(49, 49, 255);
+    
+}
+.buttonS{
+    border-radius: 40px;
+    border-style: none;
+}
+.outer_box{
+    border-style: solid;
+    border-color: black;
+    padding: 35px;
+    border-width: 8px;
+}
